@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+    <header>
+            <div class="logo">
+                <h1><img src="img/LOGO.png" alt="Letra A de alura"></h1>
+            </div>        
+    </header>
+<body>
+    <section>
+        <div class="seccion-texto-no-encriptado">
+            <ul>
+                <li>
+                    </ul><textarea name="caja de texto 1" id="mensaje" placeholder="Ingrese su texto aqui" cols="70" rows="10" class="cajatexto1"></textarea>
+                    <p class="texto-advertencia"> &#33; Solo letras minúsculas y sin acentos  </p>
+                    <button type="submit" id="Btencriptar" class="bt-Encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="submit" class="bt-Desencriptar" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </li>
+        </div>
+    </section>
+    <section>
+        <div class="seccion-texto-encripado">
+            <ul>
+                <li id="imgDerecha">
+                    <h2><img src="img/imagen-chico.png" alt="imagen de chico buscando" class="imagenchico" id="imagenChico"></h2>
+                    <p class="texto-imagen" id="textoAd">Ningun mensaje fue encontrado</p>
+                    <p class="texto-aviso">Ingresa el texto que desees  encriptar o desencriptar</p> 
+                </li>
+                <li id="mensaje2f">
+                    <textarea name="caja de texto 2" id="mensaje2" cols="70" rows="10" class="cajadetexto2"></textarea>
+                    <button type="submit" class="bt-Copiar" id="Btcopiar" onclick="copiar()">Copiar</button>
+                </li>
+            </ul>        
+         </div>
+    </section>
+    <footer class="pie">@Figueroa</footer>
+
+</body>
+</html>

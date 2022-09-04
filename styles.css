@@ -1,0 +1,161 @@
+body{
+    background: #E5E5E5;
+    width: 940px;
+}
+.logo{
+    margin: 40px 0px 0px 84px;
+}
+/* aqui editamos la parte del texto para que sea encripado */
+.seccion-texto-no-encriptado{
+    display: inline-block;
+}
+.cajatexto1{
+        position: absolute;
+        width: 577px;
+        height: 400px;
+        top: 100px;
+        left: 220px;
+        background-color: #E5E5E5;
+
+        border: none;
+        font-family:'Inter';
+        text-align: left;
+        font-size: 25px;
+        outline:none;
+        resize: none;
+        
+}
+.texto-advertencia{
+        position: absolute;
+        top: 525px;
+        left: 285px;
+        font-family: 'Inter';
+        font-style: normal;
+        border: none;
+}
+.bt-Encriptar{
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    text-align: center;
+    border-radius: 20px;
+    background: #0A3871;
+    margin: 2em;
+    font-size: 15px;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-color:  #0A3871;
+}
+.bt-Encriptar:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.bt-Desencriptar{
+    position:absolute;
+    top: 550px;
+    left: 520px;
+    text-align: center;
+    background: #E5E5E5;
+    font-size: 15px;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 24px;
+}
+.bt-Desencriptar:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+/* aqui se editta el lado derecho, para copiar el texto encriptado */
+.bt-Copiar{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    text-align: center;
+    background: #E5E5E5;
+    font-size: 15px;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 24px;
+}
+.bt-Copiar:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.seccion-texto-encripado{
+    position: absolute;
+    top: 25px;
+    left: 930px;
+    width: 350px;
+    height: 595px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08)
+}
+
+.cajadetexto2{
+    position: absolute;
+    width: 310px;
+    height: 480px;
+    top: 20px;
+    left: 20px;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    outline:none;
+    resize: none;
+}
+
+#mensaje2f{
+    display: none;
+}
+
+
+
+
+.imagenchico{
+    position: relative;
+    top: 40px;
+    
+}
+.texto-imagen{
+    position: absolute;
+    top: 575x;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #343A40;
+}
+.texto-aviso{
+    position: absolute;
+    top:450px;
+
+    color: #495057;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.pie{
+    position:relative;
+    width: 940px;
+    top: 520px;
+    left: 250px;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #343A40;
+    padding: 1em;
+}
+
+
+    
